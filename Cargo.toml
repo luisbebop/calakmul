@@ -1,0 +1,14 @@
+[package]
+name = "calakmul"
+version = "0.1.0"
+authors = ["luisbebop <luisbebop@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libp2p = "0.18.1"
+env_logger = "*"
+async-std = "1.5.0"
+futures = "*"
+artichoke = { git = "https://github.com/artichoke/artichoke" }
